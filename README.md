@@ -3,12 +3,15 @@ ze_grau_a03_4f rtv z stripper by 1x
 there might be some bugs since this is my first time making stripper >.<
 
 i combined this stripper with 93x's stripper for automatic lvl trigger thanks to 93x
+
 level will start after normal rtv with 1hp mode
 # Required File
 
 save cosmic_railroad.mp3 music to "/csgo/sound/music/1x/".
+
 save materials tilex_stage6.raw to "/csgo/materials/correction/".
-make sure players downloaded required file :D.
+
+make sure players downloaded required file :D
 
 # For Testing
 
