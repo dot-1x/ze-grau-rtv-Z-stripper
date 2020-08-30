@@ -1,5 +1,6 @@
 # ze-grau-rtv-z stripper
 ze_grau_a03_4f rtv z stripper by 1x
+
 there might be some bugs since this is my first time making stripper >.<
 
 i combined this stripper with 93x's stripper for automatic lvl trigger thanks to 93x
