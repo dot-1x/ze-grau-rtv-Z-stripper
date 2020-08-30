@@ -6,9 +6,9 @@ i combined this stripper with 93x's stripper for automatic lvl trigger thanks to
 level will start after normal rtv with 1hp mode
 # Required File
 
-save cosmic_railroad.mp3 music to "/csgo/sound/music/1x/"
-save materials tilex_stage6.raw to "/csgo/materials/correction/"
-make sure players downloaded required file :D
+save cosmic_railroad.mp3 music to "/csgo/sound/music/1x/".
+save materials tilex_stage6.raw to "/csgo/materials/correction/".
+make sure players downloaded required file :D.
 
 # For Testing
 
