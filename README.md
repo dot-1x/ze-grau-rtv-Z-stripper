@@ -17,7 +17,10 @@ make sure players downloaded required file :D
 # For Testing
 
 set stage 3
-```
+`
 sv_cheats 1
+`
+
+```
 ent_fire !self addoutput "health 200"; ent_fire relay_rtv_z_start_attack trigger; ent_fire l3_bgm_1 volume 0; ent_fire l3_bgm_1 kill; setpos -5476 -11352 -11603
 ```
