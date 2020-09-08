@@ -9,7 +9,7 @@ level will start after normal rtv with 1hp mode
 
 # update
 
-update v2 @ sep/03/2020
+update v1.2 @ sep/03/2020
 
   -increased beam dmg
  
