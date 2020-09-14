@@ -25,8 +25,9 @@ If You Already have 93x stripper You can replace it or Copy RTV-Z section and
 **EDIT**  
 ```  
 	"targetname" "level_case"  
+	"classname" "logic_case"  
 	ADD  
-	"case04" "04"  
+	"case04" "4"  
   	
 	connections  
 	{  
@@ -37,6 +38,7 @@ If You Already have 93x stripper You can replace it or Copy RTV-Z section and
 **EDIT**  
 ```  
 	"targetname" "Global_SetRTV3"  
+	"classname" "logic_relay"  
 	DELETE  
 	connections  
 	{  
@@ -54,6 +56,8 @@ If You Already have 93x stripper You can replace it or Copy RTV-Z section and
 **EDIT**  
 ```
 	"targetname" "Lv_control"  
+	"classname" "math_counter"  
+	  
 	"max"  "4"  
 ```  
 ;==========================================================================  
