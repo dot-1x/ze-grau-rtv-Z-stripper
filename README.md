@@ -1,6 +1,6 @@
 # ze-grau-rtv-z stripper	
 ze_grau_a03_4f rtv z stripper by 1x	
-there might be some bugs since this is my first time making stripper >.<	
+there might be some bugs since this is my first time making stripper
 i combined this stripper with 93x's stripper for automatic lvl trigger thanks to 93x	
 level will start after normal rtv with 1hp mode	
 # Required File	
@@ -14,8 +14,8 @@ sv_cheats 1
 `	
 ```	
 ent_fire !self addoutput "health 200"; ent_fire relay_rtv_z_start_attack trigger; ent_fire l3_bgm_1 volume 0; ent_fire l3_bgm_1 kill; setpos -5476 -11352 -11603	
-````  
-# NOTE	
+````
+#NOTE	
 If You Already have 93x stripper You can replace it or Copy RTV-Z section and	
 ;;;;;;;;;;;;;;;;; EDIT ;;;;;;;;;;;;;;;;;;;;;;	
 ;		"targetname" "level_case" 	
