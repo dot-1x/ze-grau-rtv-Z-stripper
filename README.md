@@ -22,29 +22,38 @@ ent_fire !self addoutput "health 200"; ent_fire relay_rtv_z_start_attack trigger
   
 If You Already have 93x stripper You can replace it or Copy RTV-Z section and  
   
-;;;;;;;;;;;;;;;;; EDIT ;;;;;;;;;;;;;;;;;;;;;;  
-;		"targetname" "level_case"  
-;		ADD  
-;		"case04" "04"  
+**EDIT**  
+```  
+	"targetname" "level_case"  
+	ADD  
+	"case04" "04"  
+  	
 	connections  
-;	{  
-;		"OnCase04" "trigger_rtv_z:Trigger::0:-1"  
-;	}  
-;;;;;;;;;;;;;;;;; EDIT ;;;;;;;;;;;;;;;;;;;;;;  
-;		"targetname" "Global_SetRTV3"  
-;		DELETE  
-;	connections  
-;	{  
-;		"OnTrigger" "brush_l3_physbox:Disable::25:-1"  
-;		"OnTrigger" "brush_rtv_physbox:Enable::25:-1"  
-;	}  
-;		REPLACE WITH  
-;   connections  
-;   {  
-;		"OnTrigger" "Lv_save:AddOutput:OnUser1 Lv_control:SetValue:4:0.00:1:0:-1"  
-;		"OnTrigger" "player:SetHealth:1:0:-1"  
-;   }  
-;;;;;;;;;;;;;;;; EDIT ;;;;;;;;;;;;;;;;;;;;;;;;;;  
-;		"targetname" "Lv_control"  
-;		"max"  "4"  
+	{  
+		"OnCase04" "trigger_rtv_zTrigger0-1"  
+	}  
+```  
+  
+**EDIT**  
+```  
+	"targetname" "Global_SetRTV3"  
+	DELETE  
+	connections  
+	{  
+		"OnTrigger" "brush_l3_physboxDisable25-1"  
+		"OnTrigger" "brush_rtv_physboxEnable25-1"  
+	}  
+	REPLACE WITH  
+	connections  
+	{  
+		"OnTrigger" "Lv_saveAddOutputOnUser1 Lv_controlSetValue40.0010-1"  
+		"OnTrigger" "playerSetHealth10-1"  
+	}  
+```  
+  
+**EDIT**  
+```
+	"targetname" "Lv_control"  
+	"max"  "4"  
+```  
 ;==========================================================================  
